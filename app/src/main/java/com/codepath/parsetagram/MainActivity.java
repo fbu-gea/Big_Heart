@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             btnlogin = (Button) findViewById(R.id.btnLogin);
             btnsignUp = (Button) findViewById(R.id.btnSignUp);
 
-            // Use for troubleshooting -- remove this line for production
+            // Use for troubleshooting — remove this line for production
             Parse.setLogLevel(Parse.LOG_LEVEL_DEBUG);
 
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
