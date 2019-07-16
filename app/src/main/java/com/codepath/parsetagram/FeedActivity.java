@@ -123,9 +123,6 @@ public class FeedActivity extends AppCompatActivity {
 
             ft.commit();
         }
-
-
-
     }
 
 
