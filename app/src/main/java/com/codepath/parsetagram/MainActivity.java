@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
             builder.networkInterceptors().add(httpLoggingInterceptor);
 
             Parse.initialize(new Parse.Configuration.Builder(this)
-                    .applicationId("spiralcloudah") // should correspond to APP_ID env variable
+                    .applicationId("biggerheart") // should correspond to APP_ID env variable
                     .clientKey(null)  // set explicitly unless clientKey is explicitly configured on Parse server
                     .clientBuilder(builder)
-                    .server("http://spiralcloudah-fbu-instagram.herokuapp.com/parse").build());
+                    .server("http://big-heart.herokuapp.com/parse").build());
 
             btnsignUp.setOnClickListener(new View.OnClickListener() {
                 @Override
