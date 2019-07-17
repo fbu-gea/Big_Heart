@@ -32,7 +32,11 @@ public class TimelineActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
 
-//        // define your fragments here
+        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
+        ibHome = (ImageButton) findViewById(R.id.ibHome);
+        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
+
+        // define your fragments here
         homeFragment = new HomeFragment();
         mapsFragment = new MapsFragment();
         profileFragment = new ProfileFragment();
@@ -69,10 +73,6 @@ public class TimelineActivity extends AppCompatActivity {
 //        // Set default selection
 //        bottomNavigationView.setSelectedItemId(R.id.miHome);
 
-        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
-        ibHome = (ImageButton) findViewById(R.id.ibHome);
-        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
-
         ibHome.setImageResource(R.drawable.home);
 
         Fragment fragment = homeFragment;
@@ -91,10 +91,9 @@ public class TimelineActivity extends AppCompatActivity {
 
         if (view == findViewById(R.id.ibHome)) {
 
- //           ibAdd.setImageResource(R.drawable.instagram_new_post_outline_24);
-  //          ibHome.setImageColor(R.drawable.instagram_home_filled_24);
-//            ibProfile.setImageResource(R.drawable.instagram_user_outline_24);
-  //          ibSettings.setImageResource(R.drawable.ufi_save);
+            ibMaps.setImageResource(R.drawable.maps);
+            ibHome.setImageResource(R.drawable.home_tab);
+            ibProfile.setImageResource(R.drawable.profile);
 
             fragment = homeFragment;
 
@@ -107,10 +106,9 @@ public class TimelineActivity extends AppCompatActivity {
 
         } else if (view == findViewById(R.id.ibMaps)) {
 
-//            ibAdd.setImageResource(R.drawable.instagram_new_post_filled_24);
-//            ibHome.setImageResource(R.drawable.instagram_home_outline_24);
-//            ibProfile.setImageResource(R.drawable.instagram_user_outline_24);
-//            ibSettings.setImageResource(R.drawable.ufi_save);
+            ibMaps.setImageResource(R.drawable.maps_tab);
+            ibHome.setImageResource(R.drawable.home);
+            ibProfile.setImageResource(R.drawable.profile);
 
             fragment = mapsFragment;
 
@@ -123,10 +121,9 @@ public class TimelineActivity extends AppCompatActivity {
         } else if (view == findViewById(R.id.ibProfile)) {
 
 
-//            ibAdd.setImageResource(R.drawable.instagram_new_post_outline_24);
-//            ibHome.setImageResource(R.drawable.instagram_home_outline_24);
-//            ibProfile.setImageResource(R.drawable.instagram_user_filled_24);
-//            ibSettings.setImageResource(R.drawable.ufi_save);
+            ibMaps.setImageResource(R.drawable.maps);
+            ibHome.setImageResource(R.drawable.home);
+            ibProfile.setImageResource(R.drawable.profile_tab);
 
             fragment = profileFragment;
 
@@ -136,19 +133,18 @@ public class TimelineActivity extends AppCompatActivity {
 
             ft.commit();
 
-        } else if (view == findViewById(R.id.ibMaps)) {
+        } else if (view == findViewById(R.id.ibCompose)) {
 
 
-//            ibAdd.setImageResource(R.drawable.instagram_new_post_outline_24);
-//            ibHome.setImageResource(R.drawable.instagram_home_outline_24);
-//            ibProfile.setImageResource(R.drawable.instagram_user_outline_24);
-//            ibSettings.setImageResource(R.drawable.ufi_save_active);
+            ibMaps.setImageResource(R.drawable.maps);
+            ibHome.setImageResource(R.drawable.home);
+            ibProfile.setImageResource(R.drawable.profile);
 
-            fragment = profileFragment;
+  //          fragment = profileFragment;
 
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.FragmentPlace, fragment);
+  //          ft.replace(R.id.FragmentPlace, fragment);
 
             ft.commit();
         }
