@@ -75,26 +75,26 @@ public class HomeFragment extends Fragment {
 
 //        swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
-        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                // Your code here
-                Toast.makeText(getApplicationContext(), "Refreshed!", Toast.LENGTH_LONG).show();
-                // To keep animation for 4 seconds
-                posts.clear();
-                adapter.clear();
-                loadTopPosts();
-
-            }
-        });
+//        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                // Your code here
+//                Toast.makeText(getApplicationContext(), "Refreshed!", Toast.LENGTH_LONG).show();
+//                // To keep animation for 4 seconds
+//                posts.clear();
+//                adapter.clear();
+//                loadTopPosts();
+//
+//            }
+//        });
 
         // Scheme colors for animation
-        swipeContainer.setColorSchemeColors(
-                getResources().getColor(android.R.color.holo_blue_bright),
-                getResources().getColor(android.R.color.holo_green_light),
-                getResources().getColor(android.R.color.holo_orange_light),
-                getResources().getColor(android.R.color.holo_red_light)
-        );
+//        swipeContainer.setColorSchemeColors(
+//                getResources().getColor(android.R.color.holo_blue_bright),
+//                getResources().getColor(android.R.color.holo_green_light),
+//                getResources().getColor(android.R.color.holo_orange_light),
+//                getResources().getColor(android.R.color.holo_red_light)
+//        );
 
 
 
@@ -123,36 +123,24 @@ public class HomeFragment extends Fragment {
     }
 
     public void loadTopPosts(){
-        final Post.Query postsQuery = new Post.Query();
-        postsQuery
-                .getTop()
-                .withUser();
+        final Post.Query postQuery = new Post.Query();
+        postQuery.getTop().withUser();
+        postQuery.addDescendingOrder(Post.KEY_DATE);
 
-
-        postsQuery.findInBackground(new FindCallback<Post>() {
+        postQuery.findInBackground(new FindCallback<Post>() {
             @Override
             public void done(List<Post> objects, ParseException e) {
-                if (e==null){
-                    Post post = new Post();
-                    System.out.println("Success!");
-                    for (int i = 0;i<objects.size(); i++){
-                        try {
-                            Log.d("FeedActivity", "Post ["+i+"] = "
-                                    + objects.get(i).getDescription()
-                                    + "\n username = " + objects.get(i).getUser().fetchIfNeeded().getUsername()
-                                    + " o k ");
-                        } catch (ParseException e1) {
-                            e1.printStackTrace();
-                        }
-
-                        posts.add(0,objects.get(i));
-                        adapter.notifyItemInserted(posts.size()-1);
-
+                if(e == null) {
+                    adapter.clear();
+                    for(int i = 0; i < objects.size(); i++) {
+                        posts.add(objects.get(i));
+                        adapter.notifyItemInserted(posts.size() - 1);
+//                        Log.i("HomeFragment", "Post " + i + " " + objects.get(i).getDescription());
                     }
                 } else {
-                    e.printStackTrace();
+                    Toast.makeText(getContext(), "Failed to query posts", Toast.LENGTH_SHORT).show();
                 }
-                swipeContainer.setRefreshing(false);
+//                swipeRefreshLayout.setRefreshing(false);
             }
         });
     }
