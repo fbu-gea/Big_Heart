@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".TimelineActivity">
 
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tbMain"
         android:layout_width="match_parent"

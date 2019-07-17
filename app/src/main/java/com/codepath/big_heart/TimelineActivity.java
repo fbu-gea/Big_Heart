@@ -1,10 +1,8 @@
 package com.codepath.big_heart;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
@@ -12,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import com.codepath.big_heart.Fragments.HomeFragment;
 import com.codepath.big_heart.Fragments.MapsFragment;
@@ -20,7 +17,6 @@ import com.codepath.big_heart.Fragments.ProfileFragment;
 import com.codepath.big_heart.model.Post;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.io.Serializable;
 import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {

@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 {"mName":"debug","mStoreFile":"/Users/ehummel/.android/debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"mName":"debug","mStoreFile":"/Users/genenartey/.android/debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+=======
+{"mName":"debug","mStoreFile":"/Users/ehummel/.android/debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+>>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
+=======
+{"mName":"debug","mStoreFile":"/Users/ayharvey/.android/debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
+>>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68

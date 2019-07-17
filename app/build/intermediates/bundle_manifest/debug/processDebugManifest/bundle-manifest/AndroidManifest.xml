@@ -41,6 +41,11 @@
             </intent-filter>
         </activity>
         <activity android:name="com.codepath.big_heart.TimelineActivity" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.codepath.big_heart.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
