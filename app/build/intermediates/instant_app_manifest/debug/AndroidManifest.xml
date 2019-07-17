@@ -21,13 +21,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.codepath.big_heart.RegisterActivity" />
-=======
         android:testOnly="true"
         android:theme="@style/AppTheme" >
->>>>>>> 87c6b067e6c43ffed5eeac6c9536fcd167931cca
+        <activity android:name="com.codepath.big_heart.RegisterActivity" />
         <activity android:name="com.codepath.big_heart.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1060,6 +1060,9 @@ id beginning
 id blocking
 id bottom
 id bottom_navigation
+id btnAddProfilePic
+id btnLogin
+id btnRegister
 id buttonPanel
 id center
 id center_horizontal
@@ -1090,6 +1093,11 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id etEmail
+id etFirstName
+id etLastName
+id etPassword
+id etUsername
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1114,6 +1122,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivProfilePic
 id labeled
 id largeLabel
 id left
@@ -1276,6 +1285,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_register
 layout activity_timeline
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
