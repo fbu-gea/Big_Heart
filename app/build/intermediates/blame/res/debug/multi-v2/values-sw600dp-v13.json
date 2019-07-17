@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/8dbfb7f71c30dfb7a3ce4691bea16a5f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3a6c19307dcd10dce0f1abd0277adcbd/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
