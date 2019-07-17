@@ -91,21 +91,21 @@
 
     <Button
         android:id="@+id/btnRegister"
-        android:textColor="?attr/colorButtonNormal"
-        tools:clickable="true"
         android:layout_width="326dp"
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="?attr/colorControlHighlight"
         android:text="Sign Up!"
+        android:textColor="?attr/colorButtonNormal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        tools:clickable="true" />
 
     <Button
         android:id="@+id/btnLogin"

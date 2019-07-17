@@ -888,6 +888,10 @@
         "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/color/switch_thumb_material_light.xml"
     },
     {
+        "merged": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/res/merged/debug/drawable_signup.xml.flat",
+        "source": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/src/main/res/drawable/signup.xml"
+    },
+    {
         "merged": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
