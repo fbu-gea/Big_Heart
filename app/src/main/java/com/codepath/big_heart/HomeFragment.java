@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.codepath.big_heart.R;
 import com.codepath.big_heart.model.Post;
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -37,12 +36,12 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        final View rootView = inflater.inflate(R.layout.fragment_feed, container, false);
+        final View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
         posts = new ArrayList<>();
 
-        adapter = new PostAdapter(posts, whichFragment);
-        rvPost = (RecyclerView) rootView.findViewById(R.id.rvPosts);
+        adapter = new PostAdapter(posts);
+        rvPost = (RecyclerView) rootView.findViewById(R.id.rvPost);
 
         rvPost.setLayoutManager(new LinearLayoutManager(getContext()));
         rvPost.setAdapter(adapter);
@@ -56,7 +55,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
                 final int curSize = adapter.getItemCount();
-                adapter.addAll(posts);
+//                adapter.addAll(posts);
 
                 view.post(new Runnable() {
                     @Override
@@ -71,7 +70,7 @@ public class HomeFragment extends Fragment {
 
 
 
-        swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
+//        swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
