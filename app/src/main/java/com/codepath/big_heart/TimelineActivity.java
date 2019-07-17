@@ -23,7 +23,7 @@ public class TimelineActivity extends AppCompatActivity {
     ImageButton ibHome;
     ImageButton ibProfile;
     ImageButton ibMaps;
-    public HomeFragment feedFragment;
+    public HomeFragment homeFragment;
     public MapsFragment mapsFragment;
     public ProfileFragment profileFragment;
 
@@ -32,12 +32,10 @@ public class TimelineActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
 
-        final FragmentManager fragmentManager = getSupportFragmentManager();
-
 //        // define your fragments here
-        final Fragment homeFragment = new HomeFragment();
-        final Fragment postFragment = new MapsFragment();
-        Fragment profileFragment = new ProfileFragment();
+        homeFragment = new HomeFragment();
+        mapsFragment = new MapsFragment();
+        profileFragment = new ProfileFragment();
 
 //        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 //        getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -77,11 +75,7 @@ public class TimelineActivity extends AppCompatActivity {
 
         ibHome.setImageResource(R.drawable.home);
 
-        feedFragment = new HomeFragment();
-        mapsFragment = new MapsFragment();
-        profileFragment = new ProfileFragment();
-
-        Fragment fragment = feedFragment;
+        Fragment fragment = homeFragment;
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
@@ -102,7 +96,7 @@ public class TimelineActivity extends AppCompatActivity {
 //            ibProfile.setImageResource(R.drawable.instagram_user_outline_24);
   //          ibSettings.setImageResource(R.drawable.ufi_save);
 
-            fragment = feedFragment;
+            fragment = homeFragment;
 
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
