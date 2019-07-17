@@ -12,7 +12,7 @@
 
     <fragment
         android:id="@+id/FragmentPlace"
-        android:name="com.codepath.big_heart.MapsFragment"
+        android:name="com.codepath.big_heart.Fragments.MapsFragment"
         android:layout_width="match_parent"
         android:layout_height="676dp"
         android:layout_alignBottom="@+id/ibMaps"
