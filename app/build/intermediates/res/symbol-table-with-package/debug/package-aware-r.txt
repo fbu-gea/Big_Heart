@@ -1043,7 +1043,6 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
-id FragmentPlace
 id META
 id SHIFT
 id SYM
@@ -1076,6 +1075,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bottom_navigation
 id btnAddProfilePic
 id btnLogin
 id btnLogout
@@ -1126,6 +1126,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id flContainer
 id forever
 id ghost_view
 id gone
@@ -1134,17 +1135,23 @@ id groups
 id home
 id homeAsUp
 id ibCompose
+<<<<<<< HEAD
 id ibHome
 id ibMaps
 id ibProfile
 id ibProfilePic
+=======
+>>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
 id ic_logo
 id icon
 id icon_group
 id ifRoom
 id image
+<<<<<<< HEAD
 id imageView
 id imageView3
+=======
+>>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
 id info
 id invisible
 id italic
@@ -1161,6 +1168,9 @@ id listMode
 id list_item
 id masked
 id message
+id miHome
+id miMaps
+id miProfile
 id middle
 id mini
 id mtrl_child_content_container
@@ -1184,12 +1194,15 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recyclerView
 id right
 id right_icon
 id right_side
 id rvPost
+<<<<<<< HEAD
 id rvPosts
+=======
+id rvUserPosts
+>>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1353,6 +1366,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu_bottom_navigation
 menu menu_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
