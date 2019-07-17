@@ -1,5 +1,6 @@
 package com.codepath.big_heart;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -14,6 +15,7 @@ import com.codepath.big_heart.Fragments.MapsFragment;
 import com.codepath.big_heart.Fragments.ProfileFragment;
 import com.codepath.big_heart.model.Post;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {
@@ -178,5 +180,14 @@ public class TimelineActivity extends AppCompatActivity {
         ft.replace(R.id.FragmentPlace, fragment);
 
         ft.commit();
+    }
+
+    public void showDetailsFor(Serializable post) {
+        // create intent for the new activity
+        Intent intent = new Intent(this, PostDetailsActivity.class);
+        // serialize the post using parceler, use its short name as a key
+        intent.putExtra(Post.class.getSimpleName(), (Serializable) post);
+        // show the activity
+        startActivityForResult(intent,123);
     }
 }
