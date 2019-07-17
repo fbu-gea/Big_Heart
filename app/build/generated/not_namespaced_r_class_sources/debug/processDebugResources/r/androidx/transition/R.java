@@ -78,29 +78,29 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int action_container = 0x7f08000e;
-        public static final int action_divider = 0x7f080010;
-        public static final int action_image = 0x7f080011;
-        public static final int action_text = 0x7f080017;
-        public static final int actions = 0x7f080018;
-        public static final int async = 0x7f08001e;
-        public static final int blocking = 0x7f080022;
+        public static final int action_container = 0x7f08000d;
+        public static final int action_divider = 0x7f08000f;
+        public static final int action_image = 0x7f080010;
+        public static final int action_text = 0x7f080016;
+        public static final int actions = 0x7f080017;
+        public static final int async = 0x7f08001d;
+        public static final int blocking = 0x7f080021;
         public static final int chronometer = 0x7f08002f;
-        public static final int forever = 0x7f080056;
-        public static final int ghost_view = 0x7f080057;
-        public static final int icon = 0x7f080062;
-        public static final int icon_group = 0x7f080063;
-        public static final int info = 0x7f080067;
-        public static final int italic = 0x7f080069;
-        public static final int line1 = 0x7f080070;
-        public static final int line3 = 0x7f080071;
+        public static final int forever = 0x7f080057;
+        public static final int ghost_view = 0x7f080058;
+        public static final int icon = 0x7f080060;
+        public static final int icon_group = 0x7f080061;
+        public static final int info = 0x7f080064;
+        public static final int italic = 0x7f080066;
+        public static final int line1 = 0x7f08006d;
+        public static final int line3 = 0x7f08006e;
         public static final int normal = 0x7f08007e;
         public static final int notification_background = 0x7f08007f;
         public static final int notification_main_column = 0x7f080080;
         public static final int notification_main_column_container = 0x7f080081;
         public static final int parent_matrix = 0x7f080087;
-        public static final int right_icon = 0x7f08008f;
-        public static final int right_side = 0x7f080090;
+        public static final int right_icon = 0x7f08008e;
+        public static final int right_side = 0x7f08008f;
         public static final int save_image_matrix = 0x7f080092;
         public static final int save_non_transition_alpha = 0x7f080093;
         public static final int save_scale_type = 0x7f080094;
