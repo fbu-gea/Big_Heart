@@ -20,6 +20,7 @@ import com.codepath.big_heart.Fragments.ProfileFragment;
 import com.codepath.big_heart.model.Post;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {
@@ -50,8 +51,12 @@ public class TimelineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
+//
+//        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
+//        ibHome = (ImageButton) findViewById(R.id.ibHome);
+//        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
 
-//        // define your fragments here
+        // define your fragments here
         homeFragment = new HomeFragment();
         mapsFragment = new MapsFragment();
         profileFragment = new ProfileFragment();
@@ -175,6 +180,7 @@ public class TimelineActivity extends AppCompatActivity {
 
 
 
+
     }
 
 
@@ -203,4 +209,5 @@ public class TimelineActivity extends AppCompatActivity {
 //
 //        ft.commit();
 //    }
+
 }
