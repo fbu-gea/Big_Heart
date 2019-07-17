@@ -1,18 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-ur/values-ur.xml",
-=======
-            "outputFile": "/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
-            "map": [
-                {
-                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/0af3f1e5fa4be4f9a8fb831617f7574d/res/values-ur/values-ur.xml",
->>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -22,17 +14,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/c18195ca54a949fcdd46c12b32049722/res/values-ur/values-ur.xml",
-=======
-                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/ad7e3a81be93d48e2976d374854085d4/res/values-ur/values-ur.xml",
->>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
-=======
-            "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
-            "map": [
-                {
-                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/ab41428a91c0c03d0de996938bb76d7b/res/values-ur/values-ur.xml",
->>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -46,16 +28,6 @@
                         "startOffsets": "2904",
                         "endColumns": "100",
                         "endOffsets": "3000"
-                    }
-                },
-                {
-                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-ur/values-ur.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,321,430,516,620,740,816,892,984,1078,1174,1268,1370,1464,1560,1654,1746,1838,1923,2031,2140,2242,2353,2453,2561,2726,2824",
-                        "endColumns": "109,105,108,85,103,119,75,75,91,93,95,93,101,93,95,93,91,91,84,107,108,101,110,99,107,164,97,79",
-                        "endOffsets": "210,316,425,511,615,735,811,887,979,1073,1169,1263,1365,1459,1555,1649,1741,1833,1918,2026,2135,2237,2348,2448,2556,2721,2819,2899"
                     }
                 }
             ]
