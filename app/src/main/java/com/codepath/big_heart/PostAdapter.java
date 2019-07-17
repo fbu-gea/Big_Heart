@@ -85,12 +85,12 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
                 holder.ibProfilePic.setBackgroundColor(Color.WHITE);
             }
 
-            holder.ibProfilePic.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    ((TimelineActivity) context).showProfileFragment(post);
-                }
-            });
+//            holder.ibProfilePic.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    ((TimelineActivity) context).showProfileFragment(post);
+//                }
+//            });
 
             ParseUser myUser = null;
             myUser = post.getUser();
@@ -160,7 +160,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
                 // get the post at the position, this won't work if the class is static
                 Post post = mPosts.get(position);
                 // tell Feed Fragment to start the Details activity
-                ((TimelineActivity) context).showDetailsFor((Serializable) post);
+//                ((TimelineActivity) context).showDetailsFor((Serializable) post);
             }
         }
     }
