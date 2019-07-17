@@ -14,8 +14,8 @@
         android:id="@+id/FragmentPlace"
         android:name="com.codepath.big_heart.MapsFragment"
         android:layout_width="match_parent"
-        android:layout_height="557dp"
-        android:layout_alignBottom="@+id/ibAdd"
+        android:layout_height="676dp"
+        android:layout_alignBottom="@+id/ibMaps"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="55dp" />

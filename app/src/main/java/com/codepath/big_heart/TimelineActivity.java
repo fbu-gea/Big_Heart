@@ -11,11 +11,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.codepath.big_heart.fragments.ProfileFragment;
 import com.codepath.big_heart.model.Post;
 
 import java.io.Serializable;
-import java.util.List;import com.codepath.big_heart.model.Post;
+import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {
 

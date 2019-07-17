@@ -1,4 +1,4 @@
-package com.codepath.big_heart.fragments;
+package com.codepath.big_heart;
 
 import android.os.Bundle;
 import android.util.Log;
