@@ -50,12 +50,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-
         android:layout_alignParentStart="true"
         android:background="?attr/colorControlHighlight"
         android:text="Dont have an account? Sign Up"
         android:textColor="?attr/colorButtonNormal"
-        tools:clickable="true" />
+        tools:clickable="true"
+        android:layout_alignParentLeft="true" />
 
     <ImageView
         android:id="@+id/ic_logo"
