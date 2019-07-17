@@ -589,11 +589,13 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color backgroundDark
+color backgroundLight
+color backgroundMid
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -609,6 +611,8 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorPrimaryText
+color colorTextHint
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -694,6 +698,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color usernameColor
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1001,12 +1006,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable heart_logo_vector
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_timeline
+drawable listgrad
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1022,6 +1029,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable signup
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1063,6 +1071,7 @@ id bottom_navigation
 id btnAddProfilePic
 id btnLogin
 id btnRegister
+id btnSignUp
 id buttonPanel
 id center
 id center_horizontal
@@ -1098,6 +1107,8 @@ id etFirstName
 id etLastName
 id etPassword
 id etUsername
+id et_password
+id et_username
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1114,6 +1125,7 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id ic_logo
 id icon
 id icon_group
 id ifRoom
@@ -1569,6 +1581,8 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style LoginActivityEditTextTheme
+style LoginActivityTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -1944,3 +1958,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml fileprovider
