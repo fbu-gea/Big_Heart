@@ -110,7 +110,7 @@ public class TimelineActivity extends AppCompatActivity {
             ft.commit();
 
 
-        } else if (view == findViewById(R.id.ibAdd)) {
+        } else if (view == findViewById(R.id.ibCompose)) {
 
 //            ibAdd.setImageResource(R.drawable.instagram_new_post_filled_24);
 //            ibHome.setImageResource(R.drawable.instagram_home_outline_24);
@@ -125,7 +125,7 @@ public class TimelineActivity extends AppCompatActivity {
 
             ft.commit();
 
-        } else if (view == findViewById(R.id.ibProfile) || view == findViewById(R.id.ibProfilePic)) {
+        } else if (view == findViewById(R.id.ibProfile)) {
 
 
 //            ibAdd.setImageResource(R.drawable.instagram_new_post_outline_24);
@@ -141,7 +141,7 @@ public class TimelineActivity extends AppCompatActivity {
 
             ft.commit();
 
-        } else if (view == findViewById(R.id.ibSettings)) {
+        } else if (view == findViewById(R.id.ibMaps)) {
 
 
 //            ibAdd.setImageResource(R.drawable.instagram_new_post_outline_24);
