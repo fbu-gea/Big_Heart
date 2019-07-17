@@ -33,7 +33,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
     //pass in the post array
     public PostAdapter(List<Post> posts, int whichFragment) {
         mPosts = posts;
-        this.whichFragment=whichFragment;
+        this.whichFragment = whichFragment;
     }
 
     public TextView tvDate;
@@ -65,7 +65,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         final Post post = mPosts.get(position);
 
-        if(whichFragment==0){
+        if(whichFragment == 0){
             try {
                 holder.tvDate.setText(ParseRelativeDate.getRelativeTimeAgo(post.getCreatedAt()));
                 holder.tvUserName2.setText(post.getUser().fetchIfNeeded().getUsername());

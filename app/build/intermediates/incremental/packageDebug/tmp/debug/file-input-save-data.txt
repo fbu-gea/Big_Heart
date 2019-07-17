@@ -1,6 +1,7 @@
 #Internal package file, do not edit.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Wed Jul 17 13:33:07 PDT 2019
 4.path=classes.dex
 8.set=DEX
@@ -18,6 +19,9 @@
 1.baseType=DIRECTORY
 =======
 #Wed Jul 17 13:41:57 PDT 2019
+=======
+#Wed Jul 17 15:20:04 PDT 2019
+>>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
 =======
 #Wed Jul 17 14:43:13 PDT 2019
 >>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
