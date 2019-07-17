@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-#Tue Jul 16 17:32:33 PDT 2019
-=======
-<<<<<<< HEAD
-#Tue Jul 16 17:24:04 PDT 2019
-base.0=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
-=======
-#Tue Jul 16 17:01:26 PDT 2019
->>>>>>> 9b35f8f64e77eaf30317f0fd6921667ff8801f26
+#Tue Jul 16 17:40:37 PDT 2019
 base.0=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
->>>>>>> 3f3cab88ab3d1adf3f1261f53fd08ea78df1c74a
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,12 +1,6 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
-            "map": [
-                {
-                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/c984f47e83a541c9ff005f8fffcdf5a0/res/values-v23/values-v23.xml",
-=======
             "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
@@ -22,7 +16,6 @@
                 },
                 {
                     "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/315a0b001230025cff4c171fed7f2364/res/values-v23/values-v23.xml",
->>>>>>> 3f3cab88ab3d1adf3f1261f53fd08ea78df1c74a
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,17 +31,6 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]
