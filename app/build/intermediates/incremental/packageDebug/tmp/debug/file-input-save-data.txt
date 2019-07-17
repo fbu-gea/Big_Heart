@@ -1,7 +1,13 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
+#Tue Jul 16 17:24:04 PDT 2019
+0.baseType=DIRECTORY
+0.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
+=======
 #Tue Jul 16 17:01:27 PDT 2019
 0.baseType=DIRECTORY
 0.base=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
+>>>>>>> 3f3cab88ab3d1adf3f1261f53fd08ea78df1c74a
 0.path=classes.dex
 0.set=DEX
 count=1
