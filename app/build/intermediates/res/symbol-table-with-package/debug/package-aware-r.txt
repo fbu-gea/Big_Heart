@@ -1135,16 +1135,19 @@ id groups
 id home
 id homeAsUp
 id ibCompose
+id ibProfilePic
 id ic_logo
 id icon
 id icon_group
 id ifRoom
 id image
+id imageView3
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivCurrentProfile
+id ivImage
 id ivProfilePic
 id labeled
 id largeLabel
@@ -1185,6 +1188,7 @@ id right
 id right_icon
 id right_side
 id rvPost
+id rvPosts
 id rvUserPosts
 id save_image_matrix
 id save_non_transition_alpha
@@ -1255,6 +1259,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tvCurrentUser
+id tvDate
+id tvDescription
+id tvUser
+id tvUser2
 id uniform
 id unlabeled
 id up
@@ -1312,6 +1320,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_post_details
 layout activity_register
 layout activity_timeline
 layout design_bottom_navigation_item
@@ -1331,6 +1340,7 @@ layout design_text_input_password_icon
 layout fragment_home
 layout fragment_maps
 layout fragment_profile
+layout item_post
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
