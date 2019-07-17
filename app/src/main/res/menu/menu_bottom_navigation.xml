@@ -8,15 +8,17 @@
         android:icon="@drawable/ic_timeline"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/miAddPost"
-        android:icon="@drawable/ic_timeline"
-        android:enabled="true"
-        app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/miProfile"
         android:icon="@drawable/ic_timeline"
         android:enabled="true"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/miMaps"
+        android:icon="@drawable/ic_timeline"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
 </menu>
