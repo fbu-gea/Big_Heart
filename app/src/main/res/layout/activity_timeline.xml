@@ -31,7 +31,8 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:itemIconTint="@color/colorPrimary"
+        android:background="#48DFDFDF"
+        app:itemIconSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/flContainer"
         app:menu="@menu/menu_bottom_navigation" />

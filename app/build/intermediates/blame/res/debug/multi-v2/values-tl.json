@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/0af3f1e5fa4be4f9a8fb831617f7574d/res/values-tl/values-tl.xml",
-=======
-            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
-            "map": [
-                {
-                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-tl/values-tl.xml",
->>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,11 +14,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/ad7e3a81be93d48e2976d374854085d4/res/values-tl/values-tl.xml",
-=======
-                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/c18195ca54a949fcdd46c12b32049722/res/values-tl/values-tl.xml",
->>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
