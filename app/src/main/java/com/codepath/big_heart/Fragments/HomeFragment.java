@@ -1,7 +1,6 @@
 package com.codepath.big_heart.Fragments;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,8 +21,6 @@ import com.parse.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.parse.Parse.getApplicationContext;
-
 public class HomeFragment extends Fragment {
     // Store a member variable for the listener
     private EndlessRecyclerViewScrollListener scrollListener;
@@ -43,7 +40,7 @@ public class HomeFragment extends Fragment {
 
         posts = new ArrayList<>();
 
-        adapter = new PostAdapter(posts);
+        adapter = new PostAdapter(posts, 0);
         rvPost = (RecyclerView) rootView.findViewById(R.id.rvPost);
 
         rvPost.setLayoutManager(new LinearLayoutManager(getContext()));
