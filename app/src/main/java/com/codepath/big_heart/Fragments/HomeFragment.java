@@ -12,6 +12,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.codepath.big_heart.EndlessRecyclerViewScrollListener;
+import com.codepath.big_heart.PostAdapter;
+import com.codepath.big_heart.R;
 import com.codepath.big_heart.model.Post;
 import com.parse.FindCallback;
 import com.parse.ParseException;

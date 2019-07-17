@@ -1,7 +1,6 @@
 package com.codepath.big_heart;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.codepath.big_heart.model.Post;
-import com.parse.ParseUser;
 
-import java.io.Serializable;
 import java.util.List;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
@@ -33,7 +30,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
         context = viewGroup.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
 
-        View postView = inflater.inflate(R.layout.item_post, viewGroup, false);
+        View postView = inflater.inflate(R.layout.activity_main, viewGroup, false);
         ViewHolder viewHolder = new ViewHolder(postView);
         return viewHolder;
     }
