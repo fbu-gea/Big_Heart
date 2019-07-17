@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Wed Jul 17 13:33:07 PDT 2019
 path.1=classes.dex
 =======
 #Wed Jul 17 13:41:57 PDT 2019
 base.0=/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
 >>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
+=======
+#Wed Jul 17 14:43:13 PDT 2019
+base.0=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
 path.0=classes.dex
 renamed.10=classes11.dex
 renamed.9=classes10.dex

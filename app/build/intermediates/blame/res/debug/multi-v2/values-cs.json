@@ -2,6 +2,7 @@
     "logs": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
@@ -22,6 +23,12 @@
                 {
                     "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/ad7e3a81be93d48e2976d374854085d4/res/values-cs/values-cs.xml",
 >>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
+=======
+            "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
+            "map": [
+                {
+                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/ab41428a91c0c03d0de996938bb76d7b/res/values-cs/values-cs.xml",
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -37,9 +44,15 @@
                         "endOffsets": "2987"
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 },
                 {
                     "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-cs/values-cs.xml",
+=======
+                },
+                {
+                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-cs/values-cs.xml",
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -47,8 +60,11 @@
                         "endColumns": "106,101,108,85,104,116,80,80,90,92,95,93,94,92,94,96,90,90,83,103,108,98,105,109,106,162,97,81",
                         "endOffsets": "207,309,418,504,609,726,807,888,979,1072,1168,1262,1357,1450,1545,1642,1733,1824,1908,2012,2121,2220,2326,2436,2543,2706,2804,2886"
                     }
+<<<<<<< HEAD
 =======
 >>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
+=======
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
                 }
             ]
         }

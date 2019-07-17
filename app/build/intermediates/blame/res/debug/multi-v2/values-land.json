@@ -2,6 +2,7 @@
     "logs": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
@@ -22,6 +23,12 @@
                 {
                     "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/624ca9b984185c378b7295d55a322143/res/values-land/values-land.xml",
 >>>>>>> e06349f8a90f4b774724803f550dfb4aeb41dd23
+=======
+            "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/8dbfb7f71c30dfb7a3ce4691bea16a5f/res/values-land/values-land.xml",
+>>>>>>> bce9aa3426d965793ae3693ef8837d036c8438d7
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +49,7 @@
 =======
                 },
                 {
-                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/0af3f1e5fa4be4f9a8fb831617f7574d/res/values-land/values-land.xml",
+                    "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

@@ -14,34 +14,41 @@
         android:id="@+id/FragmentPlace"
         android:name="com.codepath.big_heart.Fragments.MapsFragment"
         android:layout_width="match_parent"
-        android:layout_height="676dp"
+        android:layout_height="603dp"
+        android:layout_below="@+id/tbMain"
         android:layout_alignBottom="@+id/ibMaps"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="55dp" />
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="50dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="62dp"
         android:layout_alignTop="@+id/ibHome"
+        android:layout_alignBottom="@+id/ibMaps"
         android:layout_alignParentStart="true"
-        app:srcCompat="?attr/colorButtonNormal" />
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="-12dp"
+        app:srcCompat="@color/backgroundDark" />
 
     <ImageButton
         android:id="@+id/ibHome"
-        android:layout_width="67dp"
-        android:layout_height="57dp"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
 
-        android:layout_marginStart="19dp"
-        android:layout_marginBottom="3dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="11dp"
+        android:background="#00FFFFFF"
         android:baselineAlignBottom="true"
         android:cropToPadding="true"
         android:gravity="top"
         android:onClick="changeFragment"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/home" />
 
     <ImageButton
@@ -76,18 +83,18 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tbMain"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="67dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginLeft="-2dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginRight="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
