@@ -101,27 +101,15 @@ public class TimelineActivity extends AppCompatActivity {
                         switch (item.getItemId()) {
                             case R.id.miHome:
                                 fragment = homeFragment;
-                                ibMaps.setImageResource(R.drawable.maps);
-                                ibHome.setImageResource(R.drawable.home_tab);
-                                ibProfile.setImageResource(R.drawable.profile);
                                 break;
                             case R.id.miMaps:
                                 fragment = mapsFragment;
-                                ibMaps.setImageResource(R.drawable.maps_tab);
-                                ibHome.setImageResource(R.drawable.home);
-                                ibProfile.setImageResource(R.drawable.profile);
                                 break;
                             case R.id.miProfile:
                                 fragment = profileFragment;
-                                ibMaps.setImageResource(R.drawable.maps);
-                                ibHome.setImageResource(R.drawable.home);
-                                ibProfile.setImageResource(R.drawable.profile_tab);
                                 break;
                             default:
                                 fragment = homeFragment;
-                                ibMaps.setImageResource(R.drawable.maps);
-                                ibHome.setImageResource(R.drawable.home_tab);
-                                ibProfile.setImageResource(R.drawable.profile);
                                 break;
                         }
                         fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
