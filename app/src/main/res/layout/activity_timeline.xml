@@ -8,11 +8,11 @@
     android:layout_marginTop="0dp"
     android:layout_marginRight="0dp"
     android:orientation="vertical"
-    tools:context=".FeedActivity">
+    tools:context=".TimelineActivity">
 
     <fragment
         android:id="@+id/FragmentPlace"
-        android:name="com.codepath.parsetagram.FeedFragment"
+        android:name="com.codepath.big_heart.MapsFragment"
         android:layout_width="match_parent"
         android:layout_height="557dp"
         android:layout_alignBottom="@+id/ibAdd"
@@ -45,7 +45,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/ibAdd"
+        android:id="@+id/ibMaps"
         android:layout_width="54.1666dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
