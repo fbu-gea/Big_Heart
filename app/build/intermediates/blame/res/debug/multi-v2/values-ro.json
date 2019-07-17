@@ -1,6 +1,12 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "map": [
+                {
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/c18195ca54a949fcdd46c12b32049722/res/values-ro/values-ro.xml",
+=======
             "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
@@ -15,6 +21,7 @@
                 },
                 {
                     "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/ab41428a91c0c03d0de996938bb76d7b/res/values-ro/values-ro.xml",
+>>>>>>> bf5bc0ee7c6d35b574c4173cffa62bb7c7524648
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

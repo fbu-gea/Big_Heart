@@ -20100,4 +20100,7 @@ public final class R {
      */
     public static final int ViewStubCompat_android_inflatedId=2;
   }
+  public static final class xml {
+    public static final int fileprovider=0x7f110000;
+  }
 }
