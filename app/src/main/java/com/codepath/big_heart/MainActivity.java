@@ -67,30 +67,9 @@ public class MainActivity extends AppCompatActivity {
         btnsignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create the ParseUser
-                ParseUser user = new ParseUser();
-                System.out.println("Signing up?");
-
-                // Set core properties
-                user.setUsername(etUsername.getText().toString());
-                user.setPassword(etPassword.getText().toString());
-                // Set custom properties
-                // Invoke signUpInBackground
-                user.signUpInBackground(new SignUpCallback() {
-                    @Override
-                    public void done(com.parse.ParseException e) {
-                        if (e == null) {
-                            // Hooray! Let them use the app now.
-                            Toast.makeText(getApplicationContext(), "You're registered! Please click 'LOGIN'", Toast.LENGTH_LONG).show();
-
-                        } else {
-                            // Sign up didn't succeed. Look at the ParseException
-                            // to figure out what went wrong
-                            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
-
-                        }
-                    }
-                });
+                Intent i = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(i);
+                finish();
             }
         });
 
