@@ -1000,6 +1000,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable compose
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1007,6 +1008,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable heart_logo_vector
+drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1014,6 +1016,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_timeline
 drawable listgrad
+drawable maps
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1029,12 +1032,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
 drawable signup
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
+id FragmentPlace
 id META
 id SHIFT
 id SYM
@@ -1067,9 +1072,9 @@ id barrier
 id beginning
 id blocking
 id bottom
-id bottom_navigation
 id btnAddProfilePic
 id btnLogin
+id btnLogout
 id btnRegister
 id btnSignUp
 id buttonPanel
@@ -1117,7 +1122,6 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
-id flContainer
 id forever
 id ghost_view
 id gone
@@ -1125,15 +1129,20 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id ibHome
+id ibMaps
+id ibProfile
 id ic_logo
 id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivCurrentProfile
 id ivProfilePic
 id labeled
 id largeLabel
@@ -1144,9 +1153,7 @@ id listMode
 id list_item
 id masked
 id message
-id miAddPost
-id miHome
-id miProfile
+id miCompose
 id middle
 id mini
 id mtrl_child_content_container
@@ -1170,9 +1177,11 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerView
 id right
 id right_icon
 id right_side
+id rvPost
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1219,6 +1228,7 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tbMain
 id text
 id text2
 id textSpacerNoButtons
@@ -1240,6 +1250,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvCurrentUser
 id uniform
 id unlabeled
 id up
@@ -1313,6 +1324,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_home
+layout fragment_maps
+layout fragment_profile
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1325,7 +1339,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu menu_bottom_navigation
+menu menu_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
