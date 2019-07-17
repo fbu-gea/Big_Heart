@@ -1,4 +1,5 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Wed Jul 17 11:22:56 PDT 2019
 4.path=classes.dex
 8.set=DEX
@@ -14,6 +15,12 @@
 7.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/15
 9.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/13
 1.baseType=DIRECTORY
+=======
+#Tue Jul 16 17:40:37 PDT 2019
+0.baseType=DIRECTORY
+0.base=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+>>>>>>> bf5bc0ee7c6d35b574c4173cffa62bb7c7524648
 0.set=DEX
 6.baseType=DIRECTORY
 7.set=DEX
