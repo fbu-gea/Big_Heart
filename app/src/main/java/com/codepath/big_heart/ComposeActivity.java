@@ -14,6 +14,7 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Switch;
@@ -69,6 +70,16 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
 
+        switchEvent.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked) {
+                    etDate.setVisibility(View.VISIBLE);
+                } else {
+                    etDate.setVisibility(View.GONE);
+                }
+            }
+        });
 
         btnPost.setOnClickListener(new View.OnClickListener() {
             @Override
