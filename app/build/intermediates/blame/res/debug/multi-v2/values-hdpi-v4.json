@@ -1,10 +1,24 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-hdpi-v4/values-hdpi-v4.xml",
+=======
+<<<<<<< HEAD
+            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-hdpi-v4/values-hdpi-v4.xml",
+=======
+            "outputFile": "/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/0af3f1e5fa4be4f9a8fb831617f7574d/res/values-hdpi-v4/values-hdpi-v4.xml",
+>>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
+>>>>>>> bea36dd0eff2b8e9fc4678c2e4390fe2d008680f
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

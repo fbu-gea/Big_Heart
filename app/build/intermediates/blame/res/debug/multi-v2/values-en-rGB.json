@@ -1,7 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+=======
+<<<<<<< HEAD
+            "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/c18195ca54a949fcdd46c12b32049722/res/values-en-rGB/values-en-rGB.xml",
+=======
+            "outputFile": "/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+>>>>>>> bea36dd0eff2b8e9fc4678c2e4390fe2d008680f
             "map": [
                 {
                     "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/6b513681ee9a6e4e5a4670f5769eb9c4/res/values-en-rGB/values-en-rGB.xml",
@@ -14,7 +24,12 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/Users/ayharvey/.gradle/caches/transforms-2/files-2.1/ab41428a91c0c03d0de996938bb76d7b/res/values-en-rGB/values-en-rGB.xml",
+=======
+                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/ad7e3a81be93d48e2976d374854085d4/res/values-en-rGB/values-en-rGB.xml",
+>>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
+>>>>>>> bea36dd0eff2b8e9fc4678c2e4390fe2d008680f
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
