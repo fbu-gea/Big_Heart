@@ -1,4 +1,5 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Wed Jul 17 15:39:55 PDT 2019
 4.path=classes.dex
 8.set=DEX
@@ -14,34 +15,19 @@
 7.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/15
 9.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/13
 1.baseType=DIRECTORY
-0.set=DEX
-6.baseType=DIRECTORY
-7.set=DEX
-3.set=DEX
-2.baseType=DIRECTORY
-10.baseType=DIRECTORY
-1.path=classes.dex
-7.baseType=DIRECTORY
-3.path=classes.dex
-10.set=DEX
-5.path=classes.dex
-0.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/20
-7.path=classes.dex
-9.path=classes.dex
-6.set=DEX
-2.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/16
-4.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/14
-3.baseType=DIRECTORY
-6.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/12
-10.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/11
-8.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/21
-2.set=DEX
-8.baseType=DIRECTORY
-9.set=DEX
-count=11
-4.baseType=DIRECTORY
-5.set=DEX
-9.baseType=DIRECTORY
+=======
+<<<<<<< HEAD
+#Wed Jul 17 17:24:12 PDT 2019
+=======
+<<<<<<< HEAD
+#Wed Jul 17 17:23:07 PDT 2019
+=======
+#Wed Jul 17 16:37:16 PDT 2019
+>>>>>>> 8e2b906b8b7ff1bb4c52d69cdc17cf9c1623cf75
+>>>>>>> bf2bb1b79a3ab515d556be501da1962da6d53b88
+0.baseType=DIRECTORY
+0.base=/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex
-1.set=DEX
-2.path=classes.dex
+>>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
+0.set=DEX
+count=1

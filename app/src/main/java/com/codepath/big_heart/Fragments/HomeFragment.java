@@ -1,6 +1,7 @@
 package com.codepath.big_heart.Fragments;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +22,8 @@ import com.parse.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.parse.Parse.getApplicationContext;
+
 public class HomeFragment extends Fragment {
     // Store a member variable for the listener
     private EndlessRecyclerViewScrollListener scrollListener;
@@ -29,7 +32,7 @@ public class HomeFragment extends Fragment {
     public RecyclerView rvPost;
     PostAdapter adapter;
     private SwipeRefreshLayout swipeContainer;
-    int whichFragment=0;
+    int whichFragment = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,7 +58,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
                 final int curSize = adapter.getItemCount();
-//                adapter.addAll(posts);
+                adapter.addAll(posts);
 
                 view.post(new Runnable() {
                     @Override
@@ -70,28 +73,28 @@ public class HomeFragment extends Fragment {
 
 
 
-//        swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
+        swipeContainer = (SwipeRefreshLayout) rootView.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
-//        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-//            @Override
-//            public void onRefresh() {
-//                // Your code here
-//                Toast.makeText(getApplicationContext(), "Refreshed!", Toast.LENGTH_LONG).show();
-//                // To keep animation for 4 seconds
-//                posts.clear();
-//                adapter.clear();
-//                loadTopPosts();
-//
-//            }
-//        });
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                // Your code here
+                Toast.makeText(getApplicationContext(), "Refreshed!", Toast.LENGTH_LONG).show();
+                // To keep animation for 4 seconds
+                posts.clear();
+                adapter.clear();
+                loadTopPosts();
+
+            }
+        });
 
         // Scheme colors for animation
-//        swipeContainer.setColorSchemeColors(
-//                getResources().getColor(android.R.color.holo_blue_bright),
-//                getResources().getColor(android.R.color.holo_green_light),
-//                getResources().getColor(android.R.color.holo_orange_light),
-//                getResources().getColor(android.R.color.holo_red_light)
-//        );
+        swipeContainer.setColorSchemeColors(
+                getResources().getColor(android.R.color.holo_blue_bright),
+                getResources().getColor(android.R.color.holo_green_light),
+                getResources().getColor(android.R.color.holo_orange_light),
+                getResources().getColor(android.R.color.holo_red_light)
+        );
 
 
 
@@ -132,7 +135,7 @@ public class HomeFragment extends Fragment {
                     for(int i = 0; i < objects.size(); i++) {
                         posts.add(objects.get(i));
                         adapter.notifyItemInserted(posts.size() - 1);
-//                        Log.i("HomeFragment", "Post " + i + " " + objects.get(i).getDescription());
+                        Log.i("HomeFragment", "Post " + i + " " + objects.get(i).getDescription());
                     }
                 } else {
                     Toast.makeText(getContext(), "Failed to query posts", Toast.LENGTH_SHORT).show();

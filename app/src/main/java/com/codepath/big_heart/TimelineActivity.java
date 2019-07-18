@@ -1,5 +1,6 @@
 package com.codepath.big_heart;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.codepath.big_heart.Fragments.HomeFragment;
 import com.codepath.big_heart.Fragments.MapsFragment;
@@ -17,6 +19,7 @@ import com.codepath.big_heart.Fragments.ProfileFragment;
 import com.codepath.big_heart.model.Post;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {
@@ -29,6 +32,8 @@ public class TimelineActivity extends AppCompatActivity {
     public HomeFragment homeFragment;
     public MapsFragment mapsFragment;
     public ProfileFragment profileFragment;
+    private MenuItem miCompose;
+    private final int REQUEST_CODE = 20;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -38,19 +43,44 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     public void onComposeAction(MenuItem menuItem) {
-//        Intent intent = new Intent(TimelineActivity.this, ComposeActivity.class);
-//        intent.putExtra("Reply", "false");
-//        startActivityForResult(intent, REQUEST_CODE);
+        Intent intent = new Intent(TimelineActivity.this, ComposeActivity.class);
+        startActivityForResult(intent, REQUEST_CODE);
+    }
+
+    public void showDetailsFor(Serializable post) {
+        // create intent for the new activity
+        Intent intent = new Intent(this, PostDetailsActivity.class);
+        // serialize the post using parceler, use its short name as a key
+        intent.putExtra(Post.class.getSimpleName(), (Serializable) post);
+        // show the activity
+        startActivityForResult(intent,123);
+    }
+
+    public void showProfileFragment(Post post) {
+        Fragment fragment;
+
+        ibMaps.setImageResource(R.drawable.maps);
+        ibHome.setImageResource(R.drawable.home);
+        ibProfile.setImageResource(R.drawable.profile_tab);
+
+        fragment = profileFragment;
+
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.flContainer, fragment);
+
+        ft.commit();
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
-//
-//        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
+
+ //       ibMaps = (ImageButton) findViewById(R.id.ibMaps);
 //        ibHome = (ImageButton) findViewById(R.id.ibHome);
 //        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
+
 
         // define your fragments here
         homeFragment = new HomeFragment();
@@ -61,7 +91,7 @@ public class TimelineActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         final FragmentManager fragmentManager = getSupportFragmentManager();
-//
+
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         // handle navigation selection
@@ -90,6 +120,8 @@ public class TimelineActivity extends AppCompatActivity {
                 });
         // Set default selection
         bottomNavigationView.setSelectedItemId(R.id.miHome);
+
+
 
 //        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
 //        ibHome = (ImageButton) findViewById(R.id.ibHome);

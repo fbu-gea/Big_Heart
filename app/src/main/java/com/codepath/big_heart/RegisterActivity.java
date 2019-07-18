@@ -141,7 +141,7 @@ public class RegisterActivity extends AppCompatActivity {
         // insert Image file into User ParseObject
         user.put("profilePicture", new ParseFile(profilePic));
 
-        // TODO - I receive the error in the signUpInBackground where my e is not null but reather the exception I explained , but strings input nicely!
+        // TODO - I receive the error in the signUpInBackground where my e is not null but rather the exception I explained , but strings input nicely!
 
 
 

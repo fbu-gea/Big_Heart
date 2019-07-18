@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/genenartey/.gradle/caches/transforms-2/files-2.1/3dd8b5e5872d0c13ffa794737246a693/res/values-h720dp-v13/values-h720dp-v13.xml",
+=======
+            "outputFile": "/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/0af3f1e5fa4be4f9a8fb831617f7574d/res/values-h720dp-v13/values-h720dp-v13.xml",
+>>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
