@@ -72,8 +72,14 @@ public class RegisterActivity extends AppCompatActivity {
                 final String email = etEmail.getText().toString();
                 final String username = etUsername.getText().toString();
                 final String password = etPassword.getText().toString();
-                //final ParseFile profilePic = ivProfilePic.get
-                registerUser(firstName,lastName,email,username,password);
+
+                if (photoFile == null || ivProfilePic.getDrawable() == null ) {
+                    Log.d("HomeActivity", "No image imported");
+                    Toast.makeText(RegisterActivity.this , "You haven't taken a photo yet :/. Try again", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                registerUser(firstName,lastName,email,username,password, photoFile);
             }
         });
 
@@ -122,19 +128,21 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
 
-    private void registerUser(String firstName, String lastName, String email, String username, String password) {
+    private void registerUser(String firstName, String lastName, String email, String username, String password, File profilePic) {
         //create new parse user
         ParseUser user = new ParseUser();
 
-        // insert string values into ParseObject
+        // insert string values into User ParseObject
         user.setUsername(username);
         user.setPassword(password);
         user.setEmail(email);
         user.put("firstName", firstName);
         user.put("lastName", lastName);
+        // insert Image file into User ParseObject
+        user.put("profilePicture", new ParseFile(profilePic));
 
-        // insert Imagefile into
-        // user.put("profilePicture")
+        // TODO - I receive the error in the signUpInBackground where my e is not null but reather the exception I explained , but strings input nicely!
+
 
 
         user.signUpInBackground(new SignUpCallback() {
@@ -147,6 +155,7 @@ public class RegisterActivity extends AppCompatActivity {
                     startActivity(toTimeline);
                     finish();
                 } else {
+                    Log.d("RegisterActivity", "Register Failure");
                     e.printStackTrace();
                 }
             }

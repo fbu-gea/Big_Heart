@@ -1129,45 +1129,20 @@ id fixed
 id flContainer
 id forever
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
 id home
 id homeAsUp
 id ibCompose
-<<<<<<< HEAD
 id ibProfilePic
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-id ibHome
-id ibMaps
-id ibProfile
-id ibProfilePic
-=======
->>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
-=======
-id ibProfilePic
->>>>>>> 822628f647d00d52e5f076e01d714c9529057daf
->>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68
 id ic_logo
 id icon
 id icon_group
 id ifRoom
 id image
-<<<<<<< HEAD
 id imageView3
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-id imageView
-id imageView3
-=======
->>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
-=======
-id imageView3
->>>>>>> 822628f647d00d52e5f076e01d714c9529057daf
->>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68
 id info
 id invisible
 id italic
@@ -1214,19 +1189,8 @@ id right
 id right_icon
 id right_side
 id rvPost
-<<<<<<< HEAD
 id rvPosts
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-id rvPosts
-=======
-=======
-id rvPosts
->>>>>>> 822628f647d00d52e5f076e01d714c9529057daf
->>>>>>> 952bda75e8d67e7786401d746a5cfb299a228c68
 id rvUserPosts
->>>>>>> 96f0db0f19778c1ce02bb5e1ed91242d214d2754
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
