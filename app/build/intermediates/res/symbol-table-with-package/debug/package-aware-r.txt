@@ -1239,11 +1239,8 @@ id start
 id stretch
 id submenuarrow
 id submit_area
-<<<<<<< HEAD
 id swipeContainer
-=======
 id switchEvent
->>>>>>> bf2bb1b79a3ab515d556be501da1962da6d53b88
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager

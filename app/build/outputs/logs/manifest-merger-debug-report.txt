@@ -90,15 +90,9 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ehummel/.gradle/
 	android:label
 		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-<<<<<<< HEAD
-		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:15:9-43
 	android:icon
-		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:13:9-43
-=======
-		ADDED from /Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/src/main/AndroidManifest.xml:15:9-43
-	android:icon
-		ADDED from /Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/src/main/AndroidManifest.xml:13:9-38
->>>>>>> 8e2b906b8b7ff1bb4c52d69cdc17cf9c1623cf75
+		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:13:9-38
 	android:allowBackup
 		ADDED from /Users/ehummel/AndroidStudioProjects/Big_Heart/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme

@@ -140,7 +140,7 @@ public class HomeFragment extends Fragment {
                 } else {
                     Toast.makeText(getContext(), "Failed to query posts", Toast.LENGTH_SHORT).show();
                 }
-//                swipeRefreshLayout.setRefreshing(false);
+                swipeContainer.setRefreshing(false);
             }
         });
     }
