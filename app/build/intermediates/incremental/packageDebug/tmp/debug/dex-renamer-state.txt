@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Wed Jul 17 17:32:37 PDT 2019
 base.0=/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
+=======
+#Wed Jul 17 17:28:13 PDT 2019
+base.0=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
+>>>>>>> 7ca7f74fe44087a072dc89d5e633569e73663dca
 =======
 <<<<<<< HEAD
 #Wed Jul 17 15:39:55 PDT 2019

@@ -1,6 +1,10 @@
 #Internal package file, do not edit.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Wed Jul 17 17:32:37 PDT 2019
+=======
+#Wed Jul 17 17:28:13 PDT 2019
+>>>>>>> 7ca7f74fe44087a072dc89d5e633569e73663dca
 =======
 <<<<<<< HEAD
 #Wed Jul 17 15:39:55 PDT 2019
@@ -30,7 +34,7 @@
 >>>>>>> bf2bb1b79a3ab515d556be501da1962da6d53b88
 >>>>>>> bea36dd0eff2b8e9fc4678c2e4390fe2d008680f
 0.baseType=DIRECTORY
-0.base=/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.base=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex
 >>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
 0.set=DEX
