@@ -1,41 +1,7 @@
 #Internal package file, do not edit.
-<<<<<<< HEAD
-<<<<<<< HEAD
-#Wed Jul 17 17:32:37 PDT 2019
-=======
-#Wed Jul 17 17:28:13 PDT 2019
->>>>>>> 7ca7f74fe44087a072dc89d5e633569e73663dca
-=======
-<<<<<<< HEAD
-#Wed Jul 17 15:39:55 PDT 2019
-4.path=classes.dex
-8.set=DEX
-6.path=classes.dex
+#Wed Jul 17 17:37:02 PDT 2019
 0.baseType=DIRECTORY
-10.path=classes.dex
-5.baseType=DIRECTORY
-1.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/18
-8.path=classes.dex
-3.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/19
-4.set=DEX
-5.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/17
-7.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/15
-9.base=/Users/genenartey/AndroidStudioProjects/Big_Heart/app/build/intermediates/transforms/dexMerger/debug/13
-1.baseType=DIRECTORY
-=======
-<<<<<<< HEAD
-#Wed Jul 17 17:24:12 PDT 2019
-=======
-<<<<<<< HEAD
-#Wed Jul 17 17:23:07 PDT 2019
-=======
-#Wed Jul 17 16:37:16 PDT 2019
->>>>>>> 8e2b906b8b7ff1bb4c52d69cdc17cf9c1623cf75
->>>>>>> bf2bb1b79a3ab515d556be501da1962da6d53b88
->>>>>>> bea36dd0eff2b8e9fc4678c2e4390fe2d008680f
-0.baseType=DIRECTORY
-0.base=/Users/ayharvey/AndroidStudioProjects/Big_Heart1/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.base=/Users/ehummel/AndroidStudioProjects/Big_Heart/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex
->>>>>>> 0bf96feeb6129601d08470bde1dfc413cffeef65
 0.set=DEX
 count=1
