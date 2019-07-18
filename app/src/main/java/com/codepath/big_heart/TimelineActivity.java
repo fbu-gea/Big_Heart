@@ -75,8 +75,8 @@ public class TimelineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
-//
-//        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
+
+ //       ibMaps = (ImageButton) findViewById(R.id.ibMaps);
 //        ibHome = (ImageButton) findViewById(R.id.ibHome);
 //        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
 
@@ -89,7 +89,7 @@ public class TimelineActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         final FragmentManager fragmentManager = getSupportFragmentManager();
-//
+
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         // handle navigation selection
