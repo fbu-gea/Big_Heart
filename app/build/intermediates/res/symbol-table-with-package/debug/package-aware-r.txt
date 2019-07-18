@@ -1076,9 +1076,11 @@ id beginning
 id blocking
 id bottom
 id bottom_navigation
+id btnAddImage
 id btnAddProfilePic
 id btnLogin
 id btnLogout
+id btnPost
 id btnRegister
 id btnSignUp
 id buttonPanel
@@ -1111,9 +1113,12 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id etDate
+id etDescription
 id etEmail
 id etFirstName
 id etLastName
+id etLocation
 id etPassword
 id etUsername
 id et_password
@@ -1134,7 +1139,6 @@ id group_divider
 id groups
 id home
 id homeAsUp
-id ibCompose
 id ibProfilePic
 id ic_logo
 id icon
@@ -1148,6 +1152,7 @@ id italic
 id item_touch_helper_previous_elevation
 id ivCurrentProfile
 id ivImage
+id ivPicture
 id ivProfilePic
 id labeled
 id largeLabel
@@ -1158,6 +1163,7 @@ id listMode
 id list_item
 id masked
 id message
+id miCompose
 id miHome
 id miMaps
 id miProfile
@@ -1232,6 +1238,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id switchEvent
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1319,6 +1326,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_compose
 layout activity_main
 layout activity_post_details
 layout activity_register

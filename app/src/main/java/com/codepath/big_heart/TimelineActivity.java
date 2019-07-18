@@ -32,6 +32,8 @@ public class TimelineActivity extends AppCompatActivity {
     public HomeFragment homeFragment;
     public MapsFragment mapsFragment;
     public ProfileFragment profileFragment;
+    private MenuItem miCompose;
+    private final int REQUEST_CODE = 20;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -41,9 +43,8 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     public void onComposeAction(MenuItem menuItem) {
-//        Intent intent = new Intent(TimelineActivity.this, ComposeActivity.class);
-//        intent.putExtra("Reply", "false");
-//        startActivityForResult(intent, REQUEST_CODE);
+        Intent intent = new Intent(TimelineActivity.this, ComposeActivity.class);
+        startActivityForResult(intent, REQUEST_CODE);
     }
 
     public void showDetailsFor(Serializable post) {
@@ -79,6 +80,7 @@ public class TimelineActivity extends AppCompatActivity {
 //        ibMaps = (ImageButton) findViewById(R.id.ibMaps);
 //        ibHome = (ImageButton) findViewById(R.id.ibHome);
 //        ibProfile = (ImageButton) findViewById(R.id.ibProfile);
+
 
         // define your fragments here
         homeFragment = new HomeFragment();
